@@ -1,0 +1,18 @@
+Thao tác chuỗi
+int x=chuoi.length(): trả về độ dài chuỗi
+String chuoi3=chuoi1.concat(" ").concat(chuoi2): nối chuỗi thành 1 chuỗi mới
+String chuoi3=chuoi1+" "+chuoi2: nối chuỗi thành 1 chuỗi mới
+String chuoi=substring(int index1, int index2): chả về chuỗi từ index1->index2
+String chuoi2=chuoi1.toLowerCase(): làm mềm toàn bộ chuỗi 1
+String chuoi2=chuoi1.toUpperCase(): viết hoa toàn bộ chuỗi 1
+String chuoi2=chuoi1.trim(): cắt toàn bộ khoảng trắng đầu và cuối chuỗi
+String chuoi=chuoi1.replace("chuoi2","chuoi3"): thay toàn bộ chuoi2 trong chuoi1 bằng chuoi3
+String[] values=chuoi1.split("char"): tách chuoi1 bằng ký tự phân cách
+chuoi1.equals(chuoi2): so sánh chuỗi xem có giống nhau ko (strcmp)
+chuoi1==chuoi2: so sánh tham chiếu của chuoi1 và chuoi2 trong StringPool
+bool chuoi.isEmpty(): kiểm tra xem chuỗi có rỗng không
+int x=indexOf(chuoi):Trả về chỉ số của lần xuất hiện đầu tiên của chuỗi con được chỉ định
+int x=lastIndexOf(chuoi): Trả về chỉ mục của lần xuất hiện cuối cùng của chuỗi con được chỉ định.
+String chuoi=String.format("Tạo chuỗi có định dạng như trong C: %d",oke);
+char[] array=chuoi.toCharArray(): chuyển chuỗi thành mảng
+char x=chuoi.charAt(i): trỏ vào ký tự ở index thứ i trong chuỗi
