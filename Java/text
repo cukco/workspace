@@ -16,7 +16,7 @@ int x=lastIndexOf(chuoi): Trả về chỉ mục của lần xuất hiện cuố
 String chuoi=String.format("Tạo chuỗi có định dạng như trong C: %d",oke);
 char[] array=chuoi.toCharArray(): chuyển chuỗi thành mảng
 char x=chuoi.charAt(i): trỏ vào ký tự ở index thứ i trong chuỗi
-int x=Integer.parseInt(chuoiso)L: chuyển chuỗi số thành số
+int x=Integer.parseInt(chuoiso): chuyển chuỗi số thành số
 Double.parseDouble() - Boolean.parseBoolean() - Long.parseLong() - Float.parseFloat()
 String chuoi=String.valueof(obj): chuyển kiểu dữ liệu nguyên thủy thành chuỗi
 

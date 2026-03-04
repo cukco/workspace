@@ -1,7 +1,8 @@
 {
   "java.project.referencedLibraries": [
     "lib/**/*.jar",
-    "c:\\Users\\admin\\Downloads\\postgresql-42.7.10.jar"
+    "c:\\Users\\admin\\Downloads\\postgresql-42.7.10.jar",
+    "/Users/hungthkk123/Downloads/postgresql-42.7.10.jar"
   ],
   "sqltools.connections": [
     {
@@ -15,5 +16,6 @@
       "database": "demo",
       "username": "postgres"
     }
-  ]
+  ],
+  "java.debug.settings.onBuildFailureProceed": true
 }
